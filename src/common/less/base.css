@@ -1,0 +1,15 @@
+body,
+html {
+  font-weight: 200;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
